@@ -174,7 +174,7 @@ int main() {
 } // Ending bracket of int main()
 
 void Randomizer() {
-	RandUserMove = rand() % (1 + 1 - 0) + 0;\
+	RandUserMove = rand() % (1 + 1 - 0) + 0;
 }
 
 void PlacesMarkPlayer1() { // Checks where Player 1 would put his mark.
