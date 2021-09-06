@@ -89,10 +89,10 @@ double mathFunction() {
 	char *sNum2 = strtok(NULL,"");
 
 		/*     To deal with the issue of sometimes the first number not being detected as negative.
-		Example: input: -1-1, output: 1-1=0, expected output: -1-1=-2.
+		Example: input: -1-1, actual output: 0, 'wanted'/expected output: -2.
 		I check if the first number has a '-' character at the beginning, and then I just manually
 		do the mathametical operation.
-		This is rather unfortuante because it is inefficient but I don't have choice.		*/
+		This is rather unfortuante because it is inefficient but I don't have a choice.		*/
 	switch (mathOperator[0]) {
 		case '+':
 			if (UserInput[0]=='-') {
