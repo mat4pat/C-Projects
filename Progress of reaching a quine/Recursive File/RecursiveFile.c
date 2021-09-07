@@ -30,9 +30,8 @@ int main() {
 		
 		state=OPENED_BEFORE;
 		fprintf(file, "%d", state);
-	    system("start C:\\Users\\<your PC's name>\\Desktop\\Test\\RecursiveFile.exe");
+	    system("start C:\\Users\\<your PC's name>\\Desktop\\RecursiveFile.exe");
 	    //                        ^^^^^^^^^^^^^^ don't forget to specify the exact path to this soruce code file. 
 	}
 	fclose(file);
-	
 }
